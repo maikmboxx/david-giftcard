@@ -1,0 +1,196 @@
+body {
+    text-align: center;
+    font-family: "Merienda", cursive;
+    background: repeating-linear-gradient(to right bottom, #15084b, #d34444 20%, #f6ff00 40%, #e34f35);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 5px black;
+}
+
+
+h1:hover, #last-text:hover {
+    color:#0b1061;
+    text-shadow: 5px 5px 10px white;
+    font-size: 40px;  
+    font-weight: bolder;
+}
+
+#bro-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid #23056f;
+    margin: 25px 0px;
+}
+
+#bday-age {
+    background: #23056f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+#bday-date {
+    margin: 0;
+    background: #23056f;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+/* #gift-img-cheers {
+    height: 200px;
+} */
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 600px;
+    height: 510px;
+    border: 8px solid #432552;
+    border-radius: 1em;
+    background-image: url("images/present-img.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/imhappy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/genius-u.gif");
+}
+
+#gift-img-ugly:hover {
+    background-image: url("images/ugly.gif");
+}
+
+#gift-img-drink:hover {
+    background-image: url("images/drink.gif");
+}
+
+#gift-img-awesome:hover {
+    background-image: url("images/awesome.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/badass.gif");
+}
+
+#gift-img-loveu:hover {
+    background-image: url("images/loveu.gif");
+}
+
+#gift-img-yourock:hover {
+    background-image: url("images/yourock.gif");
+}
+
+#gift-img-loveu:hover {
+    background-image: url("images/loveu.gif");
+}
+
+#gift-img-money:hover {
+    background-image: url("images/money.gif");
+}
+
+/* #bday-text:hover {
+        background: #df1c1c;
+        position: relative;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 10px; */
+/* } */
+
+#gift-img-money {
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#bday-text:active {
+    z-index: 1;
+    background: #f31515;
+    position: relative;
+    font-weight:bold;
+    font-size:20px;
+    padding:10px;
+    animation:animated_div 4s 1;
+    -moz-animation:animated_div 4s 1;
+    -webkit-animation:animated_div 4s 1;
+    -o-animation:animated_div 4s 1;
+    border-radius: 15px;
+
+    }
+    
+    @keyframes animated_div
+    {
+    0% {transform: rotate(0deg);left:0px;}
+    25% {transform: rotate(5deg);left:0px;}
+    50% {transform: rotate(0deg);left:1000px;}
+    55% {transform: rotate(0deg);left:1000px;}
+    70% {transform: rotate(0deg);left:1000px;background:#ff9d00;}
+    100% {transform: rotate(0deg);left:0px;}
+    }
+    
+    @-webkit-keyframes animated_div
+    {
+    0% {-webkit-transform: rotate(0deg);left:0px;}
+    25% {-webkit-transform: rotate(5deg);left:0px;}
+    50% {-webkit-transform: rotate(0deg);left:500px;}
+    55% {-webkit-transform: rotate(0deg);left:500px;}
+    70% {-webkit-transform: rotate(0deg);left:500px;background:#e6211e;}
+    100% {-webkit-transform: rotate(0deg);left:0px;}
+    }
+    
+    @-moz-keyframes animated_div
+    {
+    0%  {-moz-transform: rotate(0deg);left:0px;}
+    25% {-moz-transform: rotate(5deg);left:0px;}
+    50%  {-moz-transform: rotate(0deg);left:500px;}
+    55%  {-moz-transform: rotate(0deg);left:500px;}
+    70%  {-moz-transform: rotate(0deg);left:500px;background:#e6211e;}
+    100% {-moz-transform: rotate(0deg);left:0px;}
+    }
+    
+    @-o-keyframes animated_div
+    {
+    0% {transform: rotate(0deg);left:0px;}
+    25% {transform: rotate(5deg);left:0px;}
+    50%  {transform: rotate(0deg);left:500px;}
+    55%  {transform: rotate(0deg);left:500px;}
+    70%  {transform: rotate(0deg);left:500px;background:#e6211e;}
+    100% {transform: rotate(0deg);left:0px;}
+    }
+
+
+#footer {
+    font-style: italic;
+    font-size: 25px;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+audio {
+    margin-top: 40px;
+}
